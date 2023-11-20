@@ -1,65 +1,47 @@
 android_app_import {
-	name: "MotoCalculator",
-	apk: "MotoCalculator/MotoCalculator.apk",
+	name: "ViaBrowser",
+	apk: "ViaBrowser/ViaBrowser.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
 	privileged: true,
 	product_specific: true,
-	overrides: ["ExactCalculator" , "CalculatorGoogle"],
+	overrides: ["Browser2", "Jelly"],
 }
 
 android_app_import {
-	name: "Quickpic",
-	apk: "Quickpic/Quickpic.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Gallery2"],
-}
-
-android_app_import {
-	name: "DuckDuckGo",
-	apk: "DuckDuckGo/DuckDuckGo.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Browser2" , "ViaBrowser"],
-}
-
-android_app_import {
-        name: "Flipendo",
-        certificate: "platform",
-        system_ext_specific: true,
-        apk: "Flipendo/Flipendo.apk",
-
-}
-
-android_app_import {
-        name: "ViaBrowser",
-        dex_preopt: {
-            enabled: false,
-        },
-        apk: "ViaBrowser/ViaBrowser.apk",
+        name: "SimpleGallery",
+        apk: "SimpleGallery/SimpleGallery.apk",
         presigned: true,
-
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+        product_specific: true,
+        overrides: ["Gallery2"],
 }
 
 android_app_import {
-	name: "DotGallery",
-	apk: "DotGallery/DotGallery.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Gallery2"],
+        name: "MotoCalculator",
+        apk: "MotoCalculator/MotoCalculator.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+        product_specific: true,
+	overrides: ["ExactCalculator"],
+}
+
+android_app_import {
+        name: "ViMusic",
+        apk: "ViMusic/ViMusic.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+        product_specific: true,
+	overrides: ["Eleven"],
 }

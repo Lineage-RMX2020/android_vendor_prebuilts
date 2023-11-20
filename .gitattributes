@@ -1,0 +1,5 @@
+.apk filter=lfs diff=lfs merge=lfs -text
+ViMusic.apk filter=lfs diff=lfs merge=lfs -text
+MotoCalculator.apk filter=lfs diff=lfs merge=lfs -text
+ViaBrowser.apk filter=lfs diff=lfs merge=lfs -text
+SimpleGallery.apk filter=lfs diff=lfs merge=lfs -text
