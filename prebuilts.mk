@@ -29,3 +29,9 @@ PRODUCT_PACKAGES += \
 # ViMusic
 PRODUCT_PACKAGES += \
     ViMusic
+
+# ViPER4AndroidFX
+ifeq ($(USE_V4AFX),true)
+PRODUCT_PACKAGES += \
+    Viper4AndroidFX
+endif
